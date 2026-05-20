@@ -2,7 +2,7 @@
 
 Interactive map of all orthophoto layers published by the **Instituto Geográfico Militar (IGM) Ecuador** across their WMS services.
 
-**[View the map →](https://fmvaldezg.github.io/ortofotos-igm/OrtofotosIGM2024.html)**
+**[View the map →](http://felipevaldez.com/ortofotos-igm/OrtofotosIGM2024.html)**
 
 ---
 

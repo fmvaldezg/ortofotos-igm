@@ -51,6 +51,8 @@ python wms_footprints.py
 
 This queries `GetCapabilities` on each WMS service, extracts bounding boxes and metadata, and writes per-service GeoJSON files plus `OrtofotosIGM_all.geojson`. To update the webmap, re-embed the combined GeoJSON into `OrtofotosIGM2024.html` (replace the `const GEOJSON = {...}` block).
 
+![](Screenshot.png)
+
 ## Tech stack
 
 - [MapLibre GL JS v4](https://maplibre.org/) — rendering

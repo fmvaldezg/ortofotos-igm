@@ -22,6 +22,8 @@ Interactive map of all orthophoto layers published by the **Instituto Geográfic
 | Ortofotos UAV Ecuador | `https://www.geoportaligm.gob.ec/orto/uav_ecu/wms` |
 | Ortofotos UAV U. de Cuenca | `https://www.geoportaligm.gob.ec/orto/uav_ucuenca/wms` |
 
+![](Screenshot.png)
+
 ## Features
 
 - **Filter by service** — click a legend row to show only that service
@@ -50,8 +52,6 @@ python wms_footprints.py
 ```
 
 This queries `GetCapabilities` on each WMS service, extracts bounding boxes and metadata, and writes per-service GeoJSON files plus `OrtofotosIGM_all.geojson`. To update the webmap, re-embed the combined GeoJSON into `OrtofotosIGM2024.html` (replace the `const GEOJSON = {...}` block).
-
-![](Screenshot.png)
 
 ## Tech stack
 
